@@ -177,7 +177,7 @@ root.title('Image Generator')
 input_frame = ctk.CTkFrame(root)
 input_frame.pack(side="left", expand='True', padx=10, pady=10)
 
-input_Image = ctk.CTkLabel(input_frame, text='Create', placeholder="hi")
+input_Image = ctk.CTkLabel(input_frame, text='Create')
 input_Image.grid(row=0, column=0, padx=10, pady=10)
 
 input_search = ctk.CTkTextbox(input_frame, height=10)
